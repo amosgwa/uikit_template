@@ -1,0 +1,18 @@
+.cover-shadow {
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.logo-container {
+  border: 0px solid #ccc;
+  background-color: #fff;
+}
+
+.date-container {
+  background-color: #fff;
+}
+
+.countdown-container {
+  background-color: #fff;
+  color: blue;
+}

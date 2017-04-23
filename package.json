@@ -6,9 +6,11 @@
   "dependencies": {
     "node-sass": "^4.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  },
   "scripts": {
-    "sass": "node-sass -o css scss --output-style expanded",
+    "sass": "node-sass -o ./app/css ./dev/scss --output-style expanded",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

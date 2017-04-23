@@ -1,0 +1,24 @@
+$container-background : #fff;
+
+@mixin addBorder($stroke_size) {
+  border: $stroke_size solid #ccc;
+}
+
+.cover-shadow {
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.logo-container {
+  @include addBorder(0px);
+  background-color: $container-background;
+}
+
+.date-container {
+  background-color: $container-background;
+}
+
+.countdown-container {
+  background-color: $container-background;
+  color:blue;
+}
